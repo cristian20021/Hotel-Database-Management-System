@@ -7,7 +7,7 @@ from tkinter import simpledialog
 root = Tk()
 root.geometry("830x1080")
 root.title("Hotel DB")
-passw = simpledialog.askstring(title="Test",
+passw = simpledialog.askstring(title="Password",
                                   prompt="What's your pgadmin password:")
 # passw = input('Your pgadmin password: ') 
 # Database connection details 
